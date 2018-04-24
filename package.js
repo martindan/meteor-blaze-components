@@ -1,8 +1,8 @@
 Package.describe({
-  name: 'peerlibrary:blaze-components',
+  name: 'martindan:blaze-components',
   summary: "Reusable components for Blaze",
   version: '0.22.0',
-  git: 'https://github.com/peerlibrary/meteor-blaze-components.git'
+  git: 'https://github.com/martindan/meteor-blaze-components.git'
 });
 
 // Based on meteor/packages/templating/package.js.
@@ -22,7 +22,7 @@ Package.registerBuildPlugin({
 });
 
 Package.onUse(function (api) {
-  api.versionsFrom('METEOR@1.4.1');
+  api.versionsFrom('METEOR@1.6.1');
 
   // Core dependencies.
   api.use([
@@ -91,7 +91,7 @@ Package.onUse(function (api) {
 });
 
 Package.onTest(function (api) {
-  api.versionsFrom('METEOR@1.4.1');
+  api.versionsFrom('METEOR@1.6.1');
 
   // Core dependencies.
   api.use([
